@@ -9,6 +9,11 @@
 <body>
     <h1>Pokedex</h1>
     <div>
+        <% for (let pokemon of pokemons) { %>
+            <div class="pokemon">
+                <span><%= pokemon.name %></span>
+            </div>
+        <% } %>
     </div>
 </body>
 </html>
