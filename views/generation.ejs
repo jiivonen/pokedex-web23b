@@ -11,7 +11,7 @@
     <div>
         <% for (let pokemon of pokemons) { %>
             <div class="pokemon">
-                <span><%= pokemon.name %></span>
+                <a href="/pokemon/<%= pokemon.name %>"><%= pokemon.name %></a>
             </div>
         <% } %>
     </div>
